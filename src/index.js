@@ -3,7 +3,6 @@ const express = require('express')
 const todosRouter = require('./routes/todos.js')
 const connect = require('./utils/db.js')
 
-console.log(process.env.MONGO_STR)
 
 const port = 3000
 const app = express()
