@@ -13,7 +13,7 @@ jobs:
       - name: configure ssh
         run: |
           mkdir ~/.ssh
-          echo ${{ secrets.SSH_KEY }} > ~/.ssh/cicd
+          echo "${{ secrets.SSH_KEY }}" > ~/.ssh/cicd
           chmod 644 ~/.ssh/cicd
       
       - name: Run Ansible
