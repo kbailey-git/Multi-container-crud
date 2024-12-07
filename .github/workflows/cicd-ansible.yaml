@@ -14,7 +14,7 @@ jobs:
         run: |
           mkdir ~/.ssh
           echo "${{ secrets.SSH_KEY }}" > ~/.ssh/cicd
-          chmod 644 ~/.ssh/cicd
+          chmod 600 ~/.ssh/cicd
       
       - name: Run Ansible
         run: ansible-playbook -i ansible/hosts ansible/setup-server.yaml
