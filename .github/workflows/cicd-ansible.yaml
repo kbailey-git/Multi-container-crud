@@ -12,9 +12,9 @@ jobs:
       
       - name: configure ssh
         run: |
-        mkdir ~/.ssh
-        echo ${{ secrets.SSH_KEY }} > ~/.ssh/cicd
-        chmod 644 ~/.ssh/cicd
+          mkdir ~/.ssh
+          echo ${{ secrets.SSH_KEY }} > ~/.ssh/cicd
+          chmod 644 ~/.ssh/cicd
       
       - name: Run Ansible
         run: ansible-playbook -i ansible/hosts ansible/setup-server.yaml
