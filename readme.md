@@ -6,11 +6,11 @@ This application runs a simple crud app on two containers:
 * container two is running a basic mongodb image
 
 </br>
-#### Prerequisites:
-* Git 
-* AWS Account
-* Terraform
-* Method of generating ssh key pair
+#### Prerequisites: </br>
+* Git </br>
+* AWS Account </br>
+* Terraform </br>
+* Method of generating ssh key pair </br>
 
 
 ## Setup
