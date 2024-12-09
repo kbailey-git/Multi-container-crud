@@ -10,7 +10,6 @@ This application runs a simple crud app on two containers:
 * Git </br>
 * AWS Account </br>
 * Terraform </br>
-* Method of generating ssh key pair </br>
 
 
 ## Setup
