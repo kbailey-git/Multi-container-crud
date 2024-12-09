@@ -68,11 +68,11 @@ This project is utilizing a manual trigger to configure SSH on our newly deploye
 In order to do this we must configure a repository secret with our ssh private key. To do this:
 
 #### Navigate to repo settings > secrets > actions
-![add_secret](.img/add_secret.png)
+![add_secret](img/add_secret.png)
 
 #### Add key contents and CORRECT NAME
 The secret is referenced in our github actions so make sure the name is set to SSH_KEY
-![secret_ui](.img/secret_ui.png)
+![secret_ui](img/secret_ui.png)
 
 #### Run Action
-![run_Action](.img/run_Action.png)
+![run_Action](img/run_Action.png)
