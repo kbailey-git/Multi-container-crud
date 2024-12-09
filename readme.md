@@ -40,7 +40,7 @@ ssh-keygen -t rsa -f ~/.ssh/cicd -N ""
 
 
 
-At this point you will need to add your AWS credentials to the .env file (see .env.example). A json file containing a minimal policy for this deployment can be found [here](AWS ROLE LINK)
+At this point you will need to add your AWS credentials to the .env file (see .env.example). A json file containing a minimal policy for this deployment can be found [here](aws/policy.json)
 
 
 ```
